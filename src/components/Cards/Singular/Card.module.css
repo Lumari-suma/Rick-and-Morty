@@ -1,0 +1,41 @@
+.cardContainer {
+    background-color: #141313c5;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgb(196, 188, 188);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    color: aliceblue;
+  }
+
+.cardContainer:hover {
+    transform: translateY(-5px);
+}
+  
+.closeButton {
+    align-content: center;
+    background-color: #fff;
+    border: none;
+    color: #f61010;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+  
+  
+.cardInfo {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+  
+.cardImage {
+    margin-top: 10px;
+    border-radius: 5px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+  
